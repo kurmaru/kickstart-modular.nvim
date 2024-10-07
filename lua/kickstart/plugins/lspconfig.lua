@@ -30,7 +30,6 @@ return {
       'hrsh7th/cmp-nvim-lsp',
     },
     config = function()
-
       --  This function gets run when an LSP attaches to a particular buffer.
       --    That is to say, every time a new file is opened that is associated with
       --    an lsp (for example, opening `main.rs` is associated with `rust_analyzer`) this
@@ -154,7 +153,10 @@ return {
         --
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         ts_ls = {},
+        eslint_d = {},
         tailwindcss = {},
+        html = {},
+        cssls = {},
         --
 
         lua_ls = {
